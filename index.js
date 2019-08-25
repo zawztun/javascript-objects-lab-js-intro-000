@@ -5,4 +5,7 @@ function updateObjectWithKeyAndValue(object, key, value){
  return Object.assign({}, object, {[key]:value})
 }
 
-function destructivelyUpdateObjectWithAndValue(object, key, value)
+function destructivelyUpdateObjectWithAndValue(object, key, value){
+  object = {[Keu]:value}
+  return object
+}
